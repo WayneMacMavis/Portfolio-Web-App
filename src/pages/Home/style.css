@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
+.Home {
+  position: relative;
+  width: 100%;
+  right: 0;
+  z-index: -1;
+}
+
+.video_bg {
+    object-fit: cover;
+    width: 100vw;
+    height: 95vh;
+    position: absolute;
+    top: -80px;
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+  }
+
+  .text-container {
+    position: relative;
+    top: 13vh;
+    left:0;
+    width:100%;
+    color: rgb(173, 217, 255);
+    text-shadow: 5px 5px 8px black;
+    text-align: center;
+  }
+
+  
+  .text{
+    position: relative;
+    padding: 50px;
+    font-size: 7.6pc;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 500;
+  }
+
+  @media (max-width: 960px) {
+    h1.text {
+      font-size: 6.2pc;
+    }
+    .fa-code {
+      font-size: 4.2pc;
+    }
+    h2.text {
+      font-size: 6.2pc;
+    }
+    }
+
+    @media (max-width: 600px) {
+      h1.text {
+        font-size: 4pc;
+      }
+      h2.text {
+        font-size: 4pc;
+      }
+      }
